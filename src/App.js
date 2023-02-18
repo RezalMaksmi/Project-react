@@ -8,7 +8,7 @@ import Home from './Pages/Maincontent'
 import Buy from './Pages/Buyproduct'
 import Notfound from './Pages/Notfound'
 import TambahProduct from './Pages/TambahProduct';
-// import Appk from './components/Appk';
+
 
 
 function App() {
@@ -22,7 +22,6 @@ function App() {
             <Route path="/buy" element={<Buy />} />
             <Route path="/tambah" element={<TambahProduct />} />
             <Route path="*" element={<Notfound />} />
-            {/* <Route path="/a" element={<Appk />} /> */}
           </Routes>
       
       <Footer />
